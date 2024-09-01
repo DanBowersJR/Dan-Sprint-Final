@@ -1,0 +1,73 @@
+.checkout {
+  max-width: 800px; /* Sets the maximum width of the checkout container to 800px */
+  margin: 20px auto; /* Centers the container horizontally with 20px margin on the top and bottom */
+  padding: 20px; /* Adds padding inside the container for spacing */
+  background-color: #ffffff; /* Sets a white background color for visibility */
+  border-radius: 10px; /* Rounds the corners of the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a light shadow for depth */
+}
+
+.checkout ul {
+  list-style-type: none; /* Removes bullet points from the list */
+  padding: 0; /* Removes padding from the list */
+  margin: 0; /* Removes margin from the list for a clean layout */
+}
+
+.checkout-item {
+  border-bottom: 1px solid #ddd; /* Adds a light grey border to separate items */
+  padding: 20px 0; /* Adds vertical padding to space out items */
+  display: flex; /* Utilizes flexbox for layout */
+  justify-content: space-between; /* Distributes space evenly between items */
+  align-items: center; /* Vertically centers items within the container */
+}
+
+.checkout-item-image {
+  width: 100px; /* Sets the width of the image */
+  height: 100px; /* Sets the height of the image */
+  object-fit: cover; /* Ensures the image covers the area without distorting aspect ratio */
+  border-radius: 5px; /* Rounds the corners of the image */
+  margin-right: 20px; /* Adds margin to the right of the image for spacing */
+}
+
+.checkout-item-details {
+  flex-grow: 1; /* Allows the item details to fill the available space */
+}
+
+.checkout-item-details h4 {
+  margin: 0 0 10px 0; /* Adds margin below the header for spacing */
+  font-size: 18px; /* Sets the font size for visibility */
+  color: #333; /* Dark grey color for readability */
+}
+
+.checkout-item-details p {
+  margin: 5px 0; /* Adds vertical margin for spacing */
+  font-size: 14px; /* Sets the font size for detail text */
+  color: #555; /* Medium grey color for readability */
+}
+
+.checkout-item-price {
+  font-size: 16px; /* Sets the font size for the price */
+  font-weight: bold; /* Makes the price text bold for emphasis */
+  margin-right: 20px; /* Adds margin to the right for alignment */
+}
+
+.checkout-summary {
+  margin-top: 20px; /* Adds margin above the summary for spacing */
+  font-size: 18px; /* Sets the font size for the summary */
+  text-align: right; /* Aligns the summary text to the right */
+}
+
+.checkout button {
+  background-color: #28a745; /* Sets a green background color for the button */
+  border: none; /* Removes the border from the button */
+  color: white; /* Sets the text color to white for contrast */
+  padding: 10px 20px; /* Adds padding inside the button for size */
+  font-size: 16px; /* Sets the font size of the button text */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate interactivity */
+  border-radius: 5px; /* Rounds the corners of the button */
+  transition: background-color 0.3s; /* Animates the background color change on hover */
+}
+
+.checkout button:hover {
+  background-color: #218838; /* Darkens the button on hover for visual feedback */
+}

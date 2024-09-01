@@ -1,0 +1,70 @@
+.product-details {
+  max-width: 800px; /* Limits the maximum width to 800px for a more uniform appearance */
+  margin: 20px auto; /* Centers the container horizontally with a top and bottom margin of 20px */
+  padding: 20px; /* Provides spacing inside the container */
+  background-color: #ffffff; /* Sets a clean white background for the content area */
+  border-radius: 10px; /* Softens the edges with a border radius of 10px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow to elevate the container */
+  display: flex; /* Uses flexbox to layout child elements horizontally */
+}
+
+.product-image {
+  width: 300px; /* Fixes the width of the product image */
+  height: 300px; /* Fixes the height of the product image to maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the frame completely without distortion */
+  margin-right: 20px; /* Adds a right margin for spacing between the image and the product details */
+  border-radius: 5px; /* Rounds the corners of the image */
+}
+
+.product-info {
+  flex: 1; /* Allows the product info section to fill the remaining space */
+}
+
+.product-info h1 {
+  font-size: 24px; /* Sets the size of the product name */
+  margin-top: 0; /* Removes the top margin for alignment at the top of the info area */
+  color: #663399; /* Gives the product name a distinctive purple color */
+}
+
+.product-info p {
+  font-size: 18px; /* Sets the size of the product description text */
+  color: #555; /* Uses a medium gray color for readability */
+}
+
+.cart-link {
+  display: block; /* Makes the link a block element to occupy the full width for clickable area */
+  margin-top: 20px; /* Adds space between the product details and the link */
+  color: #6a5acd; /* Sets a light purple color to the link for visual consistency */
+  transition: color 0.3s; /* Smooth transition for color change on hover */
+}
+
+.cart-link:hover {
+  color: #483d8b; /* Changes color on hover to a darker purple for emphasis */
+  text-decoration: underline; /* Underlines the link on hover for a clearer call to action */
+}
+
+button {
+  background: linear-gradient(
+    45deg,
+    #6a5acd,
+    #836fff
+  ); /* A vibrant gradient background for the button */
+  border: none; /* No border to keep the button sleek */
+  color: white; /* White text for contrast against the gradient background */
+  padding: 10px 20px; /* Padding to make the button larger and easier to click */
+  text-align: center; /* Ensures text is centered within the button */
+  font-size: 22px; /* Larger font size for clear readability */
+  margin: 5px; /* Provides a slight margin around the button to avoid clashing with other elements */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it’s clickable */
+  border-radius: 5px; /* Rounds the edges of the button for a friendlier appearance */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow to lift the button off the page */
+  transition: all 0.3s ease; /* Smooth transition for all hover effects */
+}
+
+button:hover {
+  background: linear-gradient(
+    45deg,
+    #483d8b,
+    #6a5acd
+  ); /* Changes the gradient on hover for a dynamic effect */
+}

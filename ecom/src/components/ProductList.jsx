@@ -4,15 +4,13 @@ import { Link } from "react-router-dom";
 import { ShoppingCartContext } from "../context/ShoppingCartContext";
 import "../styles/ProductList.css";
 
-// ProductList component fetches and displays a list of products
 const ProductList = () => {
-  const [products, setProducts] = useState([]); // State to hold the list of products
-  const { addToCart } = useContext(ShoppingCartContext); // Access addToCart function from ShoppingCartContext
+  const [products, setProducts] = useState([]);
+  const { addToCart } = useContext(ShoppingCartContext);
 
-  // Effect hook to fetch products once component mounts
   useEffect(() => {
-    setProducts(getProducts()); // Fetch products and set to state
-  }, []); // Empty dependency array ensures this effect runs only once after initial render
+    setProducts(getProducts());
+  }, []);
 
   return (
     <div className="product-list">

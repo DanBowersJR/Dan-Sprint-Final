@@ -23,7 +23,7 @@ export const ShoppingCartProvider = ({ children }) => {
     <ShoppingCartContext.Provider
       value={{ cartItems, addToCart, removeFromCart }}
     >
-      {children} // This is where child components will be rendered.
+      {children}
     </ShoppingCartContext.Provider>
   );
 };

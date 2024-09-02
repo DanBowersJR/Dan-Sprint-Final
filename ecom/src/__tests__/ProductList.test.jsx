@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import { MemoryRouter, BroweserRouter as Router } from "react-router-dom";
+import { MemoryRouter } from "react-router-dom";
 import { ShoppingCartContext } from "../context/ShoppingCartContext";
 import ProductList from "../components/ProductList";
 import { getProducts } from "../api/api";

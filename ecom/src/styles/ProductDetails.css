@@ -44,11 +44,7 @@
 }
 
 button {
-  background: linear-gradient(
-    45deg,
-    #6a5acd,
-    #836fff
-  ); /* A vibrant gradient background for the button */
+  background: linear-gradient(45deg, #6a5acd, #836fff);
   border: none; /* No border to keep the button sleek */
   color: white; /* White text for contrast against the gradient background */
   padding: 10px 20px; /* Padding to make the button larger and easier to click */
@@ -62,9 +58,5 @@ button {
 }
 
 button:hover {
-  background: linear-gradient(
-    45deg,
-    #483d8b,
-    #6a5acd
-  ); /* Changes the gradient on hover for a dynamic effect */
+  background: linear-gradient(45deg, #483d8b, #6a5acd);
 }
